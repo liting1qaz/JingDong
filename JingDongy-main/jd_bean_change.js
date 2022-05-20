@@ -197,6 +197,7 @@ function getJingBeanBalanceDetail(page) {
     })
   })
 }
+
 function queryexpirejingdou() {
   return new Promise(async resolve => {
     const options = {
