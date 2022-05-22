@@ -9,7 +9,6 @@ function safeAdd(x, y) {
 function bitRotateLeft(num, cnt) {
     return (num << cnt) | (num >>> (32 - cnt))
 }
-
 function md5(string, key, raw) {
     if (!key) {
         if (!raw) {
